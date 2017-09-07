@@ -44,7 +44,7 @@ jobs:
               git config --global user.name "$GH_NAME"
               git init
               git remote add origin $GITURL
-              git rm -rf *
+              git rm -rf --cached * 
               echo "$DOMAIN" > CNAME
               git add .
               git commit -am "Automated Rebuild"
