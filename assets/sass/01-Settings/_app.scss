@@ -1,0 +1,16 @@
+// Font Sizes
+
+$font-size-tiny: rem-calc(10);
+$font-size-small: rem-calc(12);
+$font-size-medium: rem-calc(16);
+$font-size-big: rem-calc(22);
+$font-size-large: rem-calc(30);
+$font-size-xlarge: rem-calc(40);
+$font-size-huge: rem-calc(50);
+
+
+// Heading Font Sizes
+
+$h1-font-size: $font-size-huge;
+$h2-font-size: $font-size-xlarge;
+$h3-font-size: $font-size-large;

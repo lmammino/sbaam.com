@@ -1,0 +1,44 @@
+mixin icon(options)
+
+	- var options = options || {}
+	- var name = options.name || ''
+
+	- var baseClass = 'icon'
+	- var classes = [baseClass]
+	- options.classes && classes.push(options.classes)
+	- var iconId = "#icon_" + name
+
+	div(class= classes.join(' '))&attributes(attributes)
+		svg.icon_svg
+			use(xlink:href=iconId)
+
+mixin item(item)
+	.item-tile
+		| &ndash; #{' '}
+		a.item-tile_link(href=`${item.link}`)= item.name
+		
+mixin organization(organization)
+	.organization-tile
+		img.organization-tile_logo(src=`/images/organizations/${organization.logo}" alt="${organization.name}`)
+
+mixin founder(founder)
+	.founder-tile
+
+		img.founder-tile_avatar(src=`/images/founders/${founder.avatar}` alt=`${founder.name}`)
+
+		.founder-tile_info
+			h4.founder-tile_name.truncate= founder.name
+			h5.founder-tile_role.truncate
+				| &ndash; 
+				= founder.role
+				|  &ndash;
+		.founder-tile_profiles
+			a.founder-tile_profile-item(href=`${founder.linkedin}`)
+				//+icon({name: 'linkedin'})
+				= " Linkedin"
+			
+mixin post(post)
+	.post-tile
+		.post-tile_cover(style=`background-image: url('/images/posts/${post.cover}')`)
+
+		

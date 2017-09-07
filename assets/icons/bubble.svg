@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>bubble</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="bubble" sketch:type="MSArtboardGroup" fill="#000000">
+            <g sketch:type="MSLayerGroup" transform="translate(1.000000, 3.000000)" id="Capa_1">
+                <g sketch:type="MSShapeGroup">
+                    <path d="M14,0.03675 C6.3385,0.03675 0.10675,5.15025 0.10675,11.43975 C0.10675,14.4025 1.5365,17.269 4.053,19.39175 C3.4825,20.685 2.72125,21.91 1.78325,23.0265 C1.56625,23.289 1.51725,23.65125 1.66075,23.95925 C1.80425,24.26725 2.114,24.4615 2.4535,24.4615 C4.96475,24.4615 7.08925,23.85075 9.5025,22.428 C10.67325,22.6135 12.985,22.8445 14,22.8445 C21.6615,22.8445 27.89325,17.7275 27.89325,11.438 C27.89325,5.15025 21.6615,0.03675 14,0.03675 L14,0.03675 Z M14,21.09625 C12.9955,21.09625 10.381,20.82675 9.49725,20.6535 C9.28375,20.615 9.0615,20.65525 8.876,20.7655 C7.245,21.763 5.82225,22.3335 4.29975,22.575 C4.956,21.581 5.502,20.531 5.92725,19.43725 C6.069,19.0715 5.9535,18.6585 5.64025,18.42225 C3.199,16.5725 1.85675,14.091 1.85675,11.43975 C1.85675,6.11625 7.3045,1.785 14,1.785 C20.6955,1.785 26.14325,6.11625 26.14325,11.43975 C26.14325,16.76325 20.6955,21.09625 14,21.09625 L14,21.09625 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

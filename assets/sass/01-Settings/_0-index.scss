@@ -1,0 +1,16 @@
+// // Global settings
+@import 'global';
+
+// Core functions & utility
+@import 'core-functions/0-index';
+
+// App settings
+@import 'app';
+
+// // Colour mappings settings
+@import 'palette-color-mapping';
+@import 'ui-color-mapping';
+// @import 'components-color-mapping';
+
+// // Component settings
+// @import 'components/0-index';

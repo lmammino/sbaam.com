@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $font-color;
+  font-family: $base-font-family;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+  overflow: auto;
+}
+
+a
+{
+	text-decoration: none;
+	&:hover {
+	  cursor: pointer;
+	}
+}
+
+
+::-ms-clear {
+  display: none;
+}
+
+::-ms-reveal {
+  display: none;
+}
+
+.h1 {
+	font-size: $h1-font-size;
+}
+
+.h2 {
+	font-size: $h2-font-size;
+}
+
+.h3 {
+	font-size: $h3-font-size;
+}
+
+
+.text-italic {
+	font-style: italic;
+	letter-spacing: - rem-calc(.5);
+}
+
+.text-strong {
+	font-weight: bold;
+	letter-spacing: - rem-calc(.5);
+}
+
+.text-underline {
+	text-decoration: underline;
+}

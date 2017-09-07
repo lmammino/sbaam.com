@@ -1,0 +1,15 @@
+.item-tile {
+	padding: rem-calc(7 0);
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+	&_link {
+		font-weight: bold;
+		color: $color-neutral-heaviest;
+		border-bottom: 1px dashed $color-neutral-heavy;
+	}
+}
+
+

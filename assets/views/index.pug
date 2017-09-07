@@ -1,0 +1,142 @@
+extends _layout
+
+block content
+
+	.page-home.animated.fadeIn
+
+		//-
+		include ./_data.pug
+
+
+		section.section.section--cover
+
+			.box-wrapper.text-center
+
+				img.section--cover_logo.animated.fadeIn(src="/images/logo.jpg" alt="Logo Sbaam")
+				h1.section_title.section_title--big has been discontinued
+				h3.h3 &ndash; 1st December 2015 &ndash;
+
+		//- Intro
+		section.section.section--intro
+
+			.text-wrapper
+				
+				p.section_phrase.section_phrase--big.section_phrase--has-first-letter.section_phrase <span class="section_first-letter"><span class="section_first-letter_quote">&ldquo;</span>S</span>baam was an innovative online marketplace born to connect independent fashion brands with customers from all over the world.
+
+				p.section_phrase Powered by a fashion-conscious community of consumers that had access to exclusive apparel and accessories they wouldn't easily find elsewhere.
+
+				p.section_phrase Sbaam aimed to offer its community a selection of high quality and exclusive products from
+					| carefully selected independent fashion labels. Through the stories behind the brands, Sbaam shared the passion and
+					| techniques of our designers, and their amazing creations, so that customers could have been sure
+					| that every purchase was really unique.
+					| &rdquo;
+
+		//- Our dream
+		section.section.section--dream
+
+			.text-wrapper
+				h2.section_title Our dream
+
+				h3.section_phrase.section_phrase--big.section_phrase--has-first-letter <span class="section_first-letter">W</span>e had a very big dream, we wanted to bring the consciousness of beautiful Independent Fashion to a whole new level.
+
+				p.section_phrase We have always seen Fashion as an Art, as a way to the express the deepest self both in the creative process of makers and in the mindful consumers’ choice of what to wear.
+
+				p.section_phrase For us fashion is not another simple money-making machine, but <i class="text-italic">a whole language that always made humanity that special race that stands on it’s own</i>.
+
+				p.section_phrase <i class="text-italic">Our dream was to give voice to all the independent players in fashion</i> like makers, designers,
+					| artists, bloggers, lovers and with them we wanted to create <i class="text-italic">the perfect meeting point between independent producers and mindful consumers</i>, one that must have been away from the pure logics
+					| of profits and must have prized <i class="text-italic">beauty, creativity and passion</i>
+
+				p.section_phrase We gave it all on this dream: our time, our passion and our money and we believe this years of
+					| efforts helped thousands of people in falling in love with independent fashion and in making
+					| much sought-after choices for their personal style.
+
+				p.section_phrase This effort and this dream totally burnt us and our resources out before we were able to make
+					| the project self-sustainable, so today we took the difficoult and unhappy decision to let this dream go.
+
+				p.section_phrase It was a very suffered decision but on the other hand we are happy to know that we left a mark
+					| on many lives and we are sure that someone else will pick up this dream again in the future,
+					| <i class="text-italic">because this world deserves more Independent Fashion and greater passion for Beautiful Things</i>.
+
+				p.section_phrase &dash; <i class="text-italic">Alessio</i>, <i class="text-italic">Andrea</i>, <i class="text-italic">Luciano</i>
+
+		//- Thanks
+		section.section.section--thanks
+
+			.text-wrapper
+				h3.section_phrase.section_phrase--big.section_phrase--has-first-letter <span class="section_first-letter">T</span>hanks so much! We published together more than <strong class="text-strong">30.000</strong> fashion posts for over <strong class="text-strong">140.000</strong> readers from all over the world.
+
+			.box-wrapper
+				.post-list-box
+					.row
+						each post in posts
+							.column.column--3
+								+post(post)
+
+			.text-wrapper
+				p.section_phrase.section_phrase--highlight We want to use this space to shine a little light on all the <strong class="text-strong">people and organizations</strong> that
+					| in many ways <strong class="text-strong">supported us and sustained our dream</strong>.
+
+			.thanks-container.thanks-container--first
+				.box-wrapper
+					//- Brands
+					h3.thanks-container_title Brands
+
+					.thanks-container_list
+						.row
+							each item in brands
+								.column.column--3
+									+item(item)
+
+			.thanks-container
+				.box-wrapper
+					//- Bloggers
+					h3.thanks-container_title Bloggers &amp; fashion lovers
+
+					.thanks-container_list
+						.row
+							each item in bloggers
+								.column.column--3
+									+item(item)
+
+			.thanks-container
+				.box-wrapper
+					//- Organizations
+					h3.thanks-container_title Organizations &amp; Press
+
+					.thanks-container_list
+						.row
+							each item in organizations
+								.column.column--3
+										+organization(item)
+
+
+			.thanks-container.thanks-container--last
+				.text-wrapper
+					//- Other thanks
+
+					h3.section_phrase.section_phrase--big.section_phrase--has-first-letter <span class="section_first-letter">T</span>hanks also to our families and friends that always sustained and encouraged us to pursue this
+						| dream, especially during the hardest moments.
+
+					p.section_phrase Thanks to all the others that we might have forgot to add in this list.
+
+		//- TODO: add # registered users / # published posts
+
+		//- Keep in touch
+		section.section.section--keep-in-touch
+
+			.text-wrapper
+				h2.section_title Keep in touch with the founders
+
+				p.section_phrase Our Sbaam emails have been deactivated, so please reach us individually on LinkedIn.
+
+
+			.box-wrapper
+				.founder-tile-list
+					.row
+						each founder in founders
+							.column.column--4
+								+founder(founder)
+
+		.footer
+			| &copy; Copyright 2013-2015 &ndash; Sbaam Ltd

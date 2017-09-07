@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="chevron-left" sketch:type="MSArtboardGroup" fill="#000000">
+            <path d="M15.6519333,11.2725333 C15.469,11.0896 15.2300667,11 14.9892667,11 C14.7484667,11 14.5095333,11.0896 14.3266,11.2725333 L8.273,17.3261333 C7.909,17.6901333 7.909,18.2818667 8.273,18.6458667 C8.637,19.0098667 9.22873333,19.0098667 9.59273333,18.6458667 L14.9892667,13.2493333 L20.3858,18.6458667 C20.7498,19.0098667 21.3415333,19.0098667 21.7055333,18.6458667 C22.0695333,18.2818667 22.0695333,17.6901333 21.7055333,17.3261333 L15.6519333,11.2725333 L15.6519333,11.2725333 Z" id="Shape" sketch:type="MSShapeGroup" transform="translate(14.989267, 14.959433) scale(-1, 1) rotate(-270.000000) translate(-14.989267, -14.959433) "></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+doctype html
+
+html(lang="en")
+
+  head
+
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+
+    title= 'Sbaam.com - Closing Page'
+
+    meta(name='description', content='Sbaam.com has been discontinued')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    base(href="/")
+    link(rel='stylesheet', href='stylesheets/style.css')
+
+  body
+    
+    include ./_mixins.pug
+    div(style="display: none")
+      include ../../dev/icons-sprite/sprite.svg
+
+    block content
+
+  //
+    script(src='https://code.jquery.com/jquery-2.1.4.min.js')

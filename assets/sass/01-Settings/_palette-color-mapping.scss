@@ -1,0 +1,44 @@
+// Primary colors mapping
+$color-primary-lighter: get-color($primary-palette, lighter);
+$color-primary-light: get-color($primary-palette, light);
+$color-primary: get-color($primary-palette, base);
+$color-primary-heavy: get-color($primary-palette, heavy);
+$color-primary-heavier: get-color($primary-palette, heavier);
+$color-primary-tone: get-color($primary-palette, tone);
+$color-primary-tone-heavy: get-color($primary-palette, tone-heavy);
+
+// Neutral colors mapping
+$color-neutral-heaviest: get-color($neutral-palette, heaviest);
+$color-neutral-heavier: get-color($neutral-palette, heavier);
+$color-neutral-heavy: get-color($neutral-palette, heavy);
+$color-neutral-medium-heavy: get-color($neutral-palette, medium-heavy);
+$color-neutral-medium: get-color($neutral-palette, medium);
+$color-neutral-medium-light: get-color($neutral-palette, medium-light);
+$color-neutral-light: get-color($neutral-palette, light);
+$color-neutral-lighter: get-color($neutral-palette, lighter);
+$color-neutral-lightest: get-color($neutral-palette, lightest);
+
+// Mood colors mapping
+$color-best: get-color($mood-palette, base, best);
+$color-best-heavy: get-color($mood-palette, heavy, best);
+$color-best-light: get-color($mood-palette, light, best);
+
+$color-good: get-color($mood-palette, base, good);
+$color-good-heavy: get-color($mood-palette, heavy, good);
+$color-good-light: get-color($mood-palette, light, good);
+
+$color-neutral: get-color($mood-palette, base, neutral);
+$color-neutral-heavy: get-color($mood-palette, heavy, neutral);
+$color-neutral-light: get-color($mood-palette, light, neutral);
+
+$color-bad: get-color($mood-palette, base, bad);
+$color-bad-heavy: get-color($mood-palette, heavy, bad);
+$color-bad-light: get-color($mood-palette, light, bad);
+
+$color-worse: get-color($mood-palette, base, worse);
+$color-worse-heavy: get-color($mood-palette, heavy, worse);
+$color-worse-light: get-color($mood-palette, light, worse);
+
+$color-worst: get-color($mood-palette, base, worst);
+$color-worst-heavy: get-color($mood-palette, heavy, worst);
+$color-worst-light: get-color($mood-palette, light, worst);

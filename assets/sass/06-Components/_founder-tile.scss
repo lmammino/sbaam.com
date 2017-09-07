@@ -1,0 +1,70 @@
+.founder-tile {
+	border: 1px solid $color-neutral-light;
+	background-color: $color-neutral-lightest;
+	text-align: center;
+	border-radius: rem-calc(4);
+	overflow: hidden;
+	border-bottom-width: 2px;
+	//box-shadow: 0 0 rem-calc(10) rgba(0, 0, 0, 0.15);
+
+	&:hover {
+		box-shadow: 0 0 rem-calc(10) rgba(0, 0, 0, 0.15);
+	}
+	
+	&_avatar {
+		width: 100%;
+		margin: -1px;
+	}
+
+	&_name {
+		font-size: $font-size-large;
+		text-align: center;
+	}
+	
+	&_role {
+		font-size: $font-size-small;
+		text-transform: uppercase;
+		color: $color-neutral-medium-heavy;
+		text-align: center;
+	}
+	
+	&_mail {
+		display: inline-block;
+		padding: rem-calc(7 25);
+		margin-top: rem-calc(25);
+		border-radius: 1000px;
+		background-color: $color-neutral-medium-heavy;
+		color: $color-neutral-lightest;
+		line-height: 1em;
+
+		&:hover {
+			background-color: $color-neutral-heaviest;
+		}
+	}
+
+	&_role,
+	&_mail {
+		font-family: $base-font-secondary;
+	}
+
+	&_info {
+		padding: rem-calc(10 10 20);
+	}
+
+	&_profiles {
+		margin-top: -1px;
+	}
+
+	&_profile-item {
+		border-top: 1px solid $color-neutral-light;
+		padding: rem-calc(6);
+		font-size: $font-size-big;
+		display: block;
+		color: $color-neutral-heavy;
+		line-height: 1em;
+	}
+}
+
+.founder-tile-list {
+	margin-top: rem-calc(40);
+}

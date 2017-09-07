@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>camera-filled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="camera-filled" sketch:type="MSLayerGroup" fill="#000000">
+            <g id="camera-alt" sketch:type="MSShapeGroup">
+                <ellipse id="Oval" cx="8" cy="8.01568627" rx="2.56" ry="2.56"></ellipse>
+                <path d="M5.6,0.0156862745 L4.16,1.61568627 L1.6,1.61568627 C0.72,1.61568627 0,2.33568627 0,3.21568627 L0,12.8156863 C0,13.6956863 0.72,14.4156863 1.6,14.4156863 L14.4,14.4156863 C15.28,14.4156863 16,13.6956863 16,12.8156863 L16,3.21568627 C16,2.33568627 15.28,1.61568627 14.4,1.61568627 L11.84,1.61568627 L10.4,0.0156862745 L5.6,0.0156862745 L5.6,0.0156862745 Z M8,12.0156863 C5.76,12.0156863 4,10.2556863 4,8.01568627 C4,5.77568627 5.76,4.01568627 8,4.01568627 C10.24,4.01568627 12,5.77568627 12,8.01568627 C12,10.2556863 10.24,12.0156863 8,12.0156863 L8,12.0156863 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

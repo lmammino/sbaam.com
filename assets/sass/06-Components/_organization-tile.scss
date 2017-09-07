@@ -1,0 +1,10 @@
+.organization-tile {
+
+	border: 1px solid $color-neutral-light;
+	margin: rem-calc(10 0);
+
+	&_logo {
+		width: 100%;
+		display: block;
+	}
+}

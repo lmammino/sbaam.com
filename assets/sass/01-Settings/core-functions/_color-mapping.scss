@@ -1,0 +1,7 @@
+@function get-color($palette, $color, $subpalette: null) {
+  @if $subpalette {
+    @return map-get(map-get($palette, $subpalette), $color);
+  } @else {
+    @return map-get($palette, $color);
+  }
+}

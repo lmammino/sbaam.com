@@ -1,0 +1,18 @@
+.icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-size: inherit;
+  line-height: 0;
+  //vertical-align: middle;
+  text-rendering: auto;
+
+  &_svg {
+    display: inline-block;
+    fill: currentColor;
+    font-size: 1em;
+    height: 1em;
+    width: 1em;
+  }
+}
+

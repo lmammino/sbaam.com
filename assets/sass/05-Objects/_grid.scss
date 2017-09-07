@@ -1,0 +1,21 @@
+$grid-gutter: rem-calc(10);
+
+.row {
+	@include clearfix;
+	margin-left: -$grid-gutter;
+	margin-right: -$grid-gutter;
+}
+
+.column {
+	float: left;
+	padding: 0 $grid-gutter;
+
+	&--4 {
+		width: 100 / 3 + %;
+	}
+
+	&--3 {
+		width: 100 / 4 + %;
+	}
+}
+

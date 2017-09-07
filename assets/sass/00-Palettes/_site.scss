@@ -1,0 +1,33 @@
+// Primary color palette
+$primary-palette: (
+  lighter: #e2f5fc,
+  light: #8cd6f2,
+  base: #19aee6,
+  heavy: #117aa1,
+  heavier: #0c5773,
+  tone: #4c97b3,
+  tone-heavy: #73858c
+);
+
+// Neutrals color palette
+$neutral-palette: (
+  heaviest: #1a1d1f,
+  heavier: #31363b,
+  heavy: #494f56,
+  medium-heavy: #606972,
+  medium: #949ca4,
+  medium-light: #c0c6cb,
+  light: #eaebed,
+  lighter: #f7f7f7,
+  lightest: #fff
+);
+
+// Mood color palette
+$mood-palette: (
+  best:  (heavy: #3c763d, base: #2db500, light: #b8de90),
+  good:     (heavy: #0c5773, base: #4c97b3, light: #e2f5fc),
+  neutral:  (heavy: #494f56, base: #73858c, light: #eaebed),
+  bad:  (heavy: #8b572a, base: #f6bb42, light: #ffdd87),
+  worse:   (heavy: #8a310f, base: #e65119, light: #ffb699),
+  worst:    (heavy: #960012, base: #c90018, light: #fa9696)
+);

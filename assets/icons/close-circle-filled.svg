@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>close-circle-filled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="close-circle-filled" sketch:type="MSArtboardGroup" fill="#000000">
+            <g sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)" id="Capa_1">
+                <g sketch:type="MSShapeGroup">
+                    <path d="M14,0 C6.26826667,0 0,6.26826667 0,14 C0,21.7336 6.26826667,28 14,28 C21.7336,28 28,21.7336 28,14 C28,6.26826667 21.7336,0 14,0 L14,0 Z M20.4866667,8.83306667 L15.2842667,14.0373333 L19.8893333,19.1669333 C20.2533333,19.5309333 20.2533333,20.1226667 19.8893333,20.4866667 C19.5253333,20.8506667 18.9336,20.8506667 18.5696,20.4866667 L13.9645333,15.3570667 L8.83306667,20.4866667 C8.46906667,20.8506667 7.87733333,20.8506667 7.51333333,20.4866667 C7.14933333,20.1226667 7.14933333,19.5309333 7.51333333,19.1669333 L12.7157333,13.9645333 L8.11253333,8.83306667 C7.74853333,8.46906667 7.74853333,7.87733333 8.11253333,7.51333333 C8.47653333,7.14933333 9.06826667,7.14933333 9.43226667,7.51333333 L14.0373333,12.6448 L19.1669333,7.51333333 C19.5309333,7.14933333 20.1226667,7.14933333 20.4866667,7.51333333 C20.8506667,7.87733333 20.8506667,8.46906667 20.4866667,8.83306667 L20.4866667,8.83306667 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

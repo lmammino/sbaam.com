@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron-circle-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="chevron-circle-left" sketch:type="MSArtboardGroup" fill="#000000">
+            <g id="chevron-circle-up" sketch:type="MSLayerGroup" transform="translate(15.000000, 15.000000) rotate(-90.000000) translate(-15.000000, -15.000000) translate(1.000000, 1.000000)">
+                <g id="Capa_1" sketch:type="MSShapeGroup">
+                    <g id="Group">
+                        <path d="M14.0616,0.125066667 C6.36346667,0.125066667 0.1232,6.36533333 0.1232,14.0634667 C0.1232,21.7616 6.36533333,28 14.0616,28 C21.7578667,28 28,21.7597333 28,14.0616 C28,6.36346667 21.7597333,0.125066667 14.0616,0.125066667 L14.0616,0.125066667 Z M14.0616,26.1333333 C7.40506667,26.1333333 1.98986667,20.72 1.98986667,14.0616 C1.98986667,7.4032 7.40506667,1.98986667 14.0616,1.98986667 C20.7181333,1.98986667 26.1333333,7.40693333 26.1333333,14.0616 C26.1333333,20.7162667 20.72,26.1333333 14.0616,26.1333333 L14.0616,26.1333333 Z" id="Shape"></path>
+                        <path d="M14.6626667,9.61333333 C14.4797333,9.4304 14.2408,9.3408 14,9.3408 C13.7592,9.3408 13.5202667,9.4304 13.3373333,9.61333333 L7.28373333,15.6669333 C6.91973333,16.0309333 6.91973333,16.6226667 7.28373333,16.9866667 C7.64773333,17.3506667 8.23946667,17.3506667 8.60346667,16.9866667 L14,11.5901333 L19.3965333,16.9866667 C19.7605333,17.3506667 20.3522667,17.3506667 20.7162667,16.9866667 C21.0802667,16.6226667 21.0802667,16.0309333 20.7162667,15.6669333 L14.6626667,9.61333333 L14.6626667,9.61333333 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

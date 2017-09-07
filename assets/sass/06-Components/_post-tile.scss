@@ -1,0 +1,9 @@
+.post-tile {
+	
+	&_cover {
+		display: block;
+		padding-top: 150%;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}

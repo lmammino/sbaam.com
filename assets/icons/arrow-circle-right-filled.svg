@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-circle-right-filled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="arrow-circle-right-filled" sketch:type="MSArtboardGroup" fill="#000000">
+            <g id="arrow-circle-down-filled" sketch:type="MSLayerGroup" transform="translate(15.000000, 15.000000) scale(1, -1) rotate(-90.000000) translate(-15.000000, -15.000000) translate(1.000000, 1.000000)">
+                <g id="Capa_1" sketch:type="MSShapeGroup">
+                    <path d="M14,0 C6.26826667,0 0,6.26826667 0,14 C0,21.7336 6.26826667,28 14,28 C21.7336,28 28,21.7336 28,14 C28,6.26826667 21.7336,0 14,0 L14,0 Z M20.2608,16.5274667 L14.6608,22.1274667 L14.3584,22.3290667 C14.1325333,22.4261333 13.8749333,22.4261333 13.6472,22.3290667 L13.3522667,22.1349333 L13.3448,22.1274667 L7.7448,16.5274667 C7.3808,16.1653333 7.3808,15.5717333 7.7448,15.2077333 C8.1088,14.8456 8.70053333,14.8456 9.06453333,15.2077333 L13.0666667,19.2136 L13.0666667,4.66666667 C13.0666667,4.15146667 13.4848,3.73333333 14,3.73333333 C14.5133333,3.73333333 14.9333333,4.15146667 14.9333333,4.66666667 L14.9333333,19.2136 L18.9392,15.2077333 C19.3013333,14.8456 19.8949333,14.8456 20.2589333,15.2077333 C20.6248,15.5717333 20.6248,16.1616 20.2608,16.5274667 L20.2608,16.5274667 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
