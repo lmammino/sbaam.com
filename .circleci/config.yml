@@ -50,3 +50,12 @@ jobs:
               git commit -am "Automated Rebuild"
               git push origin master:gh-pages --force
             fi
+
+workflows:
+  version: 2
+  build_on_master:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
