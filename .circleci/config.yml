@@ -29,5 +29,22 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      # run tests!
-      - run: npm test
+      - run:
+          name: build
+          command: npm run prod
+
+      - deploy:
+          name: deployment on GitHub pages
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              GITURL=`git config remote.origin.url`
+              cd public
+              rm -rf .git/
+              git config --global user.email "$GH_EMAIL"
+              git config --global user.name "$GH_NAME"
+              git init
+              git remote add origin $GITURL
+              git add .
+              git commit -am "Automated Rebuild"
+              git push origin master:gh-pages --force
+            fi
