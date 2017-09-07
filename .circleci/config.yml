@@ -39,6 +39,7 @@ jobs:
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               GITURL=`git config remote.origin.url`
               cd public
+              echo "sbaam.com" > CNAME
               rm -rf .git/
               git config --global user.email "$GH_EMAIL"
               git config --global user.name "$GH_NAME"
