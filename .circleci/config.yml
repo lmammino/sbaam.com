@@ -1,12 +1,12 @@
 version: 2
 
-general:
-  branches:
-    ignore:
-      - gh-pages
-
 jobs:
   build:
+
+    branches:
+      ignore:
+        - gh-pages
+
     docker:
       - image: circleci/node:8.4
 
@@ -36,6 +36,7 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               GITURL=`git config remote.origin.url`
+              cp -rf .circleci public
               cd public
               rm -rf .git/
               git config --global user.email "$GH_EMAIL"
